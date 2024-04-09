@@ -1,0 +1,11 @@
+galera-cluster-nodes:
+  hosts:
+    one:
+      ansible_host: 192.168.122.125
+      ansible_user: shiv
+    two:
+      ansible_host: 192.168.122.224
+      ansible_user: shiv
+    three:
+      ansible_host: 192.168.122.84
+      ansible_user: shiv
